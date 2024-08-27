@@ -1,0 +1,214 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, form, input, button, textarea {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: #f4f4f4;
+    padding: 20px 0;
+}
+
+.hero .container {
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#search-form {
+    margin-top: 20px;
+}
+
+#search-form input,
+#search-form button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#search-form button {
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*PROPERTY STYLES */
+
+.property-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.property-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.property-item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.property-item button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.properties h2 {
+    text-align:center
+}
+
+.about, .contact {
+    padding: 20px 0;
+}
+
+/* Specific styles for images in the about section */
+.about-image img {
+    width: 100%; /* Ensure the image fits its container */
+    max-width: 400px; /* Set a maximum width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below image */
+    margin: 0 auto; /* Center the image if necessary */
+}
+
+
+/* General Styles */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* About Section Styles */
+.about {
+    padding: 20px 0;
+    
+    position: relative; /* Allows for absolute positioning within the section */
+    margin: 20px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between; /* Space between text and image */
+    align-items: flex-start;
+}
+
+.about-text {
+    flex: 1;
+    max-width: 600px; /* Set a max width for the text */
+    border: 2px solid #ccc; /* Border around the text */
+    padding: 20px; /* Padding inside the border */
+    background-color: #fff; /* Background color for the text area */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds shadow for better visual separation */
+}
+
+.about-image {
+    flex: 0 0 300px; /* Fixed width for the image */
+    position: absolute;
+    right: 0; /* Align image to the right edge of the container */
+    top: 10px; /* Adjust based on your design needs */
+    padding: 25px;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: Adds rounded corners */
+}
+
+/* END ABOUT STYLES */
+
+
+/* CONTACT STYLES */ 
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.contact button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
