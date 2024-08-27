@@ -83,7 +83,6 @@ nav ul li a {
     background-color: #ffffff;
     margin: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .property-list {
@@ -142,13 +141,12 @@ nav ul li a {
     padding: 20px 0;
 }
 
-/* Specific styles for images in the about section */
 .about-image img {
-    width: 100%; /* Ensure the image fits its container */
+    width: 100%; 
     max-width: 400px; /* Set a maximum width */
     height: auto; /* Maintain aspect ratio */
-    display: block; /* Remove extra space below image */
-    margin: 0 auto; /* Center the image if necessary */
+    display: block; 
+    margin: 0 auto; 
 }
 
 
@@ -178,15 +176,14 @@ img {
     max-width: 600px; /* Set a max width for the text */
     border: 2px solid #ccc; /* Border around the text */
     padding: 20px; /* Padding inside the border */
-    background-color: #fff; /* Background color for the text area */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds shadow for better visual separation */
+    background-color: #fff; 
 }
 
 .about-image {
     flex: 0 0 300px; /* Fixed width for the image */
     position: absolute;
     right: 0; /* Align image to the right edge of the container */
-    top: 10px; /* Adjust based on your design needs */
+    top: 10px; 
     padding: 25px;
 }
 
